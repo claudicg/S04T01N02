@@ -8,10 +8,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import cat.itacademy.barcelonaactiva.cordero.claudio.s04.t01n02.S04T01N02CorderoClaudio.apis.HelloWorldApi;
 
 @RestController
-public class HelloWorldController implements HelloWorldApi {
+public class HelloWorldController {
 
 	private Logger logger = LoggerFactory.getLogger(HelloWorldController.class);
 	
